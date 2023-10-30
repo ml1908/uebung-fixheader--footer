@@ -1,0 +1,29 @@
+﻿body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+main{
+    flex: 1;
+    overflow-y: scroll;
+    border: black 4px solid;
+}
+
+
+
+footer{
+    min-height: 100px;
+    background-color: #80b918;
+}
+
+header {
+    background-color: #80b918;
+    height: 100px;
+}
+
+div {
+    background-color: #007f5f;
+    height: 100vh;
+    border: #FF5714 4px solid;
+}

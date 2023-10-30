@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="headerfix.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>headerfix</title>
+</head>
+<body>
+<header>
+
+</header>
+<main>
+  <div>
+    <a>body{</a>
+    <br>
+    <a>display: flex;<br>
+      flex-direction: column;<br>
+      height: 100vh;<br>
+      width: 100vw;
+    </a><br>
+    <a>}</a><br>
+    <br>
+    <a>main{<br>
+      flex: 1;<br>
+      overflow-y: scroll;<br>
+      }
+    </a><br>
+    <br>
+    <a>header {<br>
+      min-height: 100px;
+    </a>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <form class="form 1">Bestellung</form>
+    <form action="/submit.php" target="_blank" method="post">
+      <input type="name" placeholder="Name">
+      <br>
+      <input type="tel" maxlength="4" placeholder="PLZ">
+      <br>
+      <label for="phone">Enter your phone number:</label>
+      <br>
+      <input type="tel" id="phone" name="phone" maxlength="4" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required/>
+      <br>
+      <small>Format: 123-456-7890</small></form>
+  </div>
+  <footer>
+    <ul>
+      <li class="liste">AGB |</li>
+      <li class="liste">Impressum |</li>
+      <li class="liste">Datenschutz</li>
+    </ul>
+  </footer>
+</main>
+</body>
+</html>
